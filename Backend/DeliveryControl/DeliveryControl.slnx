@@ -1,2 +1,5 @@
 <Solution>
+  <Folder Name="/src/">
+    <Project Path="src/DeliveryControl.Entities/DeliveryControl.Entities.csproj" />
+  </Folder>
 </Solution>
