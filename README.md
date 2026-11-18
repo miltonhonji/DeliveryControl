@@ -61,6 +61,50 @@ Represents the delivery driver's workday.
    - FinalMileage
    - TotalMileage
    
-   **Total mileage calculation: **
+   ** Total mileage calculation: **
    
    $\text{Total Mileage} = \text{FinalMileage} - \text{InitialMileage}$
+   
+   TotalMileage is a derived value calculated using the initial and final mileage.
+   
+## Route
+
+Represents a route completed during a workday.
+	
+### Attributes:
+	
+	- Id
+	- WorkDayId
+	- DeparturePoint
+	- EstimatedDuration
+	- RouteAmount
+	- CompensationAmount
+	- TotalPackages
+	- SucessfulDeliveries
+	- UnsuccessfulDeliveries
+	
+### Expense
+
+Represents expenses related to delivery activies.
+
+It purpose is to record and track operational expenses, allowing the system to calculate financial results.
+
+## 5. Domain sctructure
+
+The entities use an abstract base class:
+
+ ```csharp
+
+public class BaseEntity
+{
+    public int Id { get; set; }
+}
+
+```
+
+Other entities inherit from BaseEntity, reusing the identification property.
+
+## 6. Financial indicators
+
+The system aims to provide indicators for monitoring delivery activies:
+
