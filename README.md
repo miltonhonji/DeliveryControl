@@ -1,6 +1,6 @@
 # US English
 
-##1. About the project
+## 1. About the project
 
 **Delivery Control** is a personal project developed with the goal of creating an application to manage and track deliveries perfomed through Mercado Livre.
 
@@ -8,7 +8,7 @@ The application aims to centralize operational and financial information, allowi
 
 Initial, the system will use manual data entry without depending on external Mercado Livre API integrations.
 
-##Project Information
+## Project Information
 
 | Information | Details                                                                               |
 |-------------|---------------------------------------------------------------------------------------|
@@ -16,7 +16,7 @@ Initial, the system will use manual data entry without depending on external Mer
 |Status       | In development   																	  |
 |Objective    | Develop an application to manage and track deliveries perfomed through Mercado Livre. |
 
-##2. Project objectives
+## 2. Project objectives
 
    - Register workdays.
    - Manage completed routes.
