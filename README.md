@@ -18,15 +18,15 @@ Initial, the system will use manual data entry without depending on external Mer
 
 ## 2. Project objectives
 
-   - Register workdays.
-   - Manage completed routes.
-   - Register route departure points.
-   - Track traveled mileage.
-   - Record successful and unsuccessful deliveries.
-   - Track amounts received for routes.
-   - Register compensations and deductions.
-   - Manage work-related expenses.
-   - Calculte financial results.
+    - Register workdays.
+    - Manage completed routes.
+    - Register route departure points.
+    - Track traveled mileage.
+    - Record successful and unsuccessful deliveries.
+    - Track amounts received for routes.
+    - Register compensations and deductions.
+    - Manage work-related expenses.
+    - Calculte financial results.
    
 ## 3. Domain modelling
 
@@ -43,9 +43,9 @@ The project uses Object-Oriented Programming (OOP) concepts, separating responsi
 
 ### Relationships
 
-   - A WorkDay can have multiple Routes.
-   - A WorkDay can have multiple Expenses.
-   - A Route belongs to a WorkDay.
+    - A WorkDay can have multiple Routes.
+    - A WorkDay can have multiple Expenses.
+    - A Route belongs to a WorkDay.
    
 ## 4. Business rules
 
@@ -55,11 +55,11 @@ Represents the delivery driver's workday.
 
 ### Attributes:
 
-   - Id
-   - Date
-   - InitialMileage
-   - FinalMileage
-   - TotalMileage
+    - Id
+    - Date
+    - InitialMileage
+    - FinalMileage
+    - TotalMileage
    
    ** Total mileage calculation: **
    
@@ -104,7 +104,14 @@ public class BaseEntity
 
 Other entities inherit from BaseEntity, reusing the identification property.
 
-## 6. Financial indicators
+## 6. Financial indicators (In planning)
 
 The system aims to provide indicators for monitoring delivery activies:
 
+	- Total amount received from routes.
+	- Total compensations.
+	- Total deductions.
+	- Total expenses.
+	- Total mileage traveled.
+	- Net financial result.
+	
