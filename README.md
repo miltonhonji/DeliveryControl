@@ -26,5 +26,41 @@ Initial, the system will use manual data entry without depending on external Mer
    - Track amounts received for routes.
    - Register compensations and deductions.
    - Manage work-related expenses.
-   - Calculte financial results
+   - Calculte financial results.
+   
+## 3. Domain modelling
 
+The project uses Object-Oriented Programming (OOP) concepts, separating responsibilities through domain entities.
+
+### Main entities
+
+| Entities    | Responsability                    |
+|-------------| ----------------------------------|
+| BaseEntity  | Base class for entities           |
+| WorkDay     | Represents a workday              |
+| Route       | Represents a completed route      |
+| Expense     | Represents a work-related expense |
+
+### Relationships
+
+   - A WorkDay can have multiple Routes.
+   - A WorkDay can have multiple Expenses.
+   - A Route belongs to a WorkDay.
+   
+## 4. Business rules
+
+## WorkDay
+
+Represents the delivery driver's workday.   
+
+### Attributes:
+
+   - Id
+   - Date
+   - InitialMileage
+   - FinalMileage
+   - TotalMileage
+   
+   **Total mileage calculation: **
+   
+   $\text{Total Mileage} = \text{FinalMileage} - \text{InitialMileage}$
