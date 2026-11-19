@@ -13,13 +13,22 @@ namespace DeliveryControl.Entities.Entities
         [ForeignKey("WorkDay")]
         [Column(Order = 1)]
         public int WorkDayId { get; set; }
-        public int EstimatedDuration { get; set;}
-        public decimal CompensationAmount { get; set; }
+
+        [ForeignKey("DeparturePoint")]
+        [Column(Order = 1)]
+        public int DeparturePointId { get; set; }
+        public TimeSpan EstimatedDuration { get; set; }
+        public decimal RouteAmount { get; set; }
+        public decimal CompensationAmount { get; set; } = 0m;
+        public decimal DiscountAmount { get; set; } = 0m;
+        public decimal TotalAmount { get; set; }
         public int TotalPackages { get; set; }
         public int SuccessfulDeliveries { get; set; }
         public int UnsuccessfulDeliveries { get; set; }
-        public int NumbersOfStops { get; set; }
+        public int StopCount { get; set; }
         [JsonIgnore]
         public virtual WorkDay? WorkDay { get; set; }
+        [JsonIgnore]
+        public virtual DeparturePoint? DeparturePoint { get; set; }
     }
 }

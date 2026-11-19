@@ -63,7 +63,7 @@ Represents the delivery driver's workday.
    
    ** Total mileage calculation: **
    
-   $\text{Total Mileage} = \text{FinalMileage} - \text{InitialMileage}$
+   $\text{TotalMileage} = \text{FinalMileage} - \text{InitialMileage}$
    
    TotalMileage is a derived value calculated using the initial and final mileage.
    
@@ -75,13 +75,42 @@ Represents a route completed during a workday.
 	
 	- Id
 	- WorkDayId
-	- DeparturePoint
+	- DeparturePointId
 	- EstimatedDuration
 	- RouteAmount
+	- DiscountAmount
 	- CompensationAmount
 	- TotalPackages
 	- SucessfulDeliveries
 	- UnsuccessfulDeliveries
+	
+   ** Total amount calculation: **   
+   
+   $\text{TotalAmount} = \text{RouteAmount} + \text{CompensationAmount} - \text{DiscountAmount}$
+
+A route is associated with a workday and a departure point. It can contain multiple individual deliveries.
+
+## DeparturePoint
+
+Represents the departure location of a route, such as a distribution center or agency.
+
+### Attributes:
+	- Id 
+	- Name
+	- AddressId
+
+## Address
+
+Represents an address that can be reused by other domain entities.
+
+### Attributes:
+	- Id
+	- Street
+	- Number
+	- Neighborhood
+	- City
+	- State
+	- ZipCode
 	
 ### Expense
 
@@ -115,3 +144,25 @@ The system aims to provide indicators for monitoring delivery activies:
 	- Total mileage traveled.
 	- Net financial result.
 	
+## 7. Technologies
+
+_ In development - to be updated according to implementation _
+
+	- C#
+	- .NET
+	- Object-Oriented Programming
+	- Relational database
+
+## 8. Diagrams
+
+The project model will be documented using UML diagrams, allowing visualization of entities, their attributes, methods, and relationships.
+	
+## 9. Project status
+
+### In development
+
+Development is being carried out incrementally, prioritizing domain modeling and business rule definitions before implementing the remaing layers.
+
+
+
+# BR Português
