@@ -1,5 +1,6 @@
 <Solution>
   <Folder Name="/src/">
+    <Project Path="src/DeliveryControl.Domain/DeliveryControl.Domain.csproj" />
     <Project Path="src/DeliveryControl.Entities/DeliveryControl.Entities.csproj" />
   </Folder>
 </Solution>
