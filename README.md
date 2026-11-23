@@ -165,8 +165,38 @@ Development is being carried out incrementally, prioritizing domain modeling and
 
 ## 10. Next steps
 
-* (●) Opção selecionada
-* ( ) Opção não selecionada
+* (●) In planning - Yes Option.
+* ( ) In planning - No Option.
 
+## 11. Development Time
+
+This section tracks the time dedicated to the development of Delivery Control.
+
+Development hours are Currently being recorded in a personal schedule. The accumulated time will be updated as the project progresses.
+
+### Project Information
+
+| **Infomrmation**    | **Details**         |
+|---------------------| --------------------|
+| Start date          | October 19, 2026    |
+| Development hours   | To be calculated    |
+| Status              | In development      |
+| Last Update         | November 23, 2026   |
+
+### Total Development Time
+
+# 13h 30min
+
+*Total time invested in the development of Delivery Control.*
+
+### Hours by Activy
+
+| **Activy**                  | **Hours**           |
+|-----------------------------|---------------------|
+| Modeling and Archicture     |     To be calculated|
+| Development                 |     To be calculated|
+| Database                    |     To be calculated|
+| Documentation               |     To be calculated|
+| Total         		      |     	   13h 30min|
 
 # BR Português
