@@ -2,5 +2,8 @@
   <Folder Name="/src/">
     <Project Path="src/DeliveryControl.Domain/DeliveryControl.Domain.csproj" />
     <Project Path="src/DeliveryControl.Entities/DeliveryControl.Entities.csproj" />
+    <Project Path="src/DeliveryControl.Helpers/DeliveryControl.Helpers.csproj" />
+    <Project Path="src/DeliveryControl.Infra/DeliveryControl.Infra.csproj" />
+    <Project Path="src/DeliveryControl.WebApi/DeliveryControl.WebApi.csproj" />
   </Folder>
 </Solution>
