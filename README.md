@@ -165,10 +165,8 @@ Development is being carried out incrementally, prioritizing domain modeling and
 
 ## 10. Next steps
 
-<form>
-  <label><input type="radio" name="escolha" value="1" checked> Opção 1</label><br>
-  <label><input type="radio" name="escolha" value="2"> Opção 2</label><br>
-  <label><input type="radio" name="escolha" value="3"> Opção 3</label>
-</form>
+* (●) Opção selecionada
+* ( ) Opção não selecionada
+
 
 # BR Português
