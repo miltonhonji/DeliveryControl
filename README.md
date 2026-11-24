@@ -181,11 +181,11 @@ Development hours are Currently being recorded in a personal schedule. The accum
 | Start date          | October 19, 2026    |
 | Development hours   | To be calculated    |
 | Status              | In development      |
-| Last Update         | November 23, 2026   |
+| Last Update         | November 24, 2026   |
 
 ### Total Development Time
 
-# 13h 30min
+# 15h 30min
 
 *Total time invested in the development of Delivery Control.*
 
@@ -197,7 +197,7 @@ Development hours are Currently being recorded in a personal schedule. The accum
 | Development                 |     To be calculated|
 | Database                    |     To be calculated|
 | Documentation               |     To be calculated|
-| Total         		      |     	   13h 30min|
+| Total         		      |     	   15h 30min|
 
 
 # BR Português
@@ -212,38 +212,38 @@ Inicialmente, o sistema utilizará cadastros manuais, sem depender de integraç�
 
 ## Informações do projeto
 
-| Information | Details                                                                               |
-|-------------|---------------------------------------------------------------------------------------|
-|Start Date   | October 19, 2026 																	  |
-|Status       | In development   																	  |
-|Objective    | Develop an application to manage and track deliveries perfomed through Mercado Livre. |
+| Informações     | Detalhes                                                                                                  |
+|-----------------|-----------------------------------------------------------------------------------------------------------|
+|Data de Início   | 19/10/2026 																	                              |
+|Status           | Em Desenvolvimento  																                      |
+|Objetivo         | Desenvolver uma aplicação para gerenciamento e acompanhamento das entregas realizadas pelo Mercado Livre. |
 
-## 2. Project objectives
+## 2. Objetivos
 
-    - Register workdays.
-    - Manage completed routes.
-    - Register route departure points.
-    - Track traveled mileage.
-    - Record successful and unsuccessful deliveries.
-    - Track amounts received for routes.
-    - Register compensations and deductions.
-    - Manage work-related expenses.
-    - Calculte financial results.
+    - Registrar os dias de trabalho.
+    - Controlar as rotas realizadas.
+    - Registrar os pontos de partida das rotas.
+    - Acompanhar a quilometragem percorrida.
+    - Registrar entregas realizadas e não realizadas.
+    - Controlar valores recebidos pelas rotas.
+    - Registrar descontos e compensações.
+    - Controlar despesas relacionadas ao trabalho.
+    - Calcular o resultado financeiro das atividades.
    
-## 3. Domain modelling
+## 3. Modelagem de domínio
 
-The project uses Object-Oriented Programming (OOP) concepts, separating responsibilities through domain entities.
+O projeto utiliza coneceitos de Programação Orientada a Objetos (POO), separando as responsabilidades por entidades.
 
-### Main entities
+### Entidades principais
 
-| Entities    | Responsability                    |
-|-------------| ----------------------------------|
-| BaseEntity  | Base class for entities           |
-| WorkDay     | Represents a workday              |
-| Route       | Represents a completed route      |
-| Expense     | Represents a work-related expense |
+| Entidade    | Responsabilidade                                             |
+|-------------| -------------------------------------------------------------|
+| BaseEntity  | Classe base das entidades                                    |
+| WorkDay     | Representa um dia de trabalho                                |
+| Route       | Representa uma rota realizada duraten o dia de trabalho      |
+| Expense     | Representa uma despesa relacionada do trabalho               |
 
-### Relationships
+### Relacionamentos
 
     - A WorkDay can have multiple Routes.
     - A WorkDay can have multiple Expenses.
@@ -383,7 +383,7 @@ Development hours are Currently being recorded in a personal schedule. The accum
 | Start date          | October 19, 2026    |
 | Development hours   | To be calculated    |
 | Status              | In development      |
-| Last Update         | November 23, 2026   |
+| Last Update         | November 24, 2026   |
 
 ### Total Development Time
 
@@ -399,6 +399,6 @@ Development hours are Currently being recorded in a personal schedule. The accum
 | Development                 |     To be calculated|
 | Database                    |     To be calculated|
 | Documentation               |     To be calculated|
-| Total         		      |     	   13h 30min|
+| Total         		      |     	   15h 30min|
 
 

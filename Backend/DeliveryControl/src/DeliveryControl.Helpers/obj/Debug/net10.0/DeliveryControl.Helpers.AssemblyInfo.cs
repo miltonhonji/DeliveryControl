@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DeliveryControl.Helpers")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8c2bff5eaba5c2a19afe11844f60042e617157c2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+474a29f2c3725f13ecf3309cfa3b26036078ccf5")]
 [assembly: System.Reflection.AssemblyProductAttribute("DeliveryControl.Helpers")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DeliveryControl.Helpers")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
